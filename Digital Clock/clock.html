@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+
+<body onload="updateClock() ; setInterval('updateClock()', 1000)">
+    <div id="clock">
+        <div></div>
+    </div>
+
+    <div class="container">
+        <h1>Set Alarm </h1>
+        <label for="clock">Set Alarm</label>
+        <input type="text" class="inputText" id="alarm" name="alarm" placeholder="yyyy-mm-dd hh:mm:ss">
+    </div>
+
+    <div class="buttonClick">
+        <button type="submit" class="btn" id="alarmSubmit">Set Alarm</button>
+    </div>
+</body>
+<script src="clock.js"></script>
+
+</html>

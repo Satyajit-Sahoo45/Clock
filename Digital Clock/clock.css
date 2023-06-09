@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+#clock{
+    color: white;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 20% 2% 20%;
+}
+.buttonClick{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    font-size: 2rem;
+    border-radius: 16px;
+}
+.inputText{
+    width: 25%;
+}
